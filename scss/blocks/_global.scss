@@ -1,0 +1,48 @@
+//Variables
+
+$green: #00a759;
+$white: #fff;
+$black: #000;
+
+
+a {
+    text-decoration: none;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+}
+
+.button {
+    display: inline-block;
+
+    color: $white;
+    background-color: $green;
+}
